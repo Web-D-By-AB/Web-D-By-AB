@@ -1,0 +1,35 @@
+.slider{
+  // background: url("../images/bg/home-1.jpg") no-repeat;
+  background: url("../images/Hero-3.png") no-repeat;
+  background-size: 80%;
+  background-position: right center;
+  // padding:100px 0;
+  padding-top: 130px;
+  padding-bottom: 40px;
+  position: relative;
+  @include tablet {
+    padding:150px 0;
+  }
+  @extend .overly;
+  .block{
+    h1{
+      font-size: 55px;
+      line-height: 80px;
+      letter-spacing: -2.5px ;
+      font-weight: 600;
+      color: $black;
+
+    }
+    p{
+      margin-bottom:30px;
+      color:$primary-color;
+      font-size: 18px; 
+      line-height: 27px;
+      font-weight: 300;
+    }
+
+    span{
+      letter-spacing: 1px;
+    }
+  }
+}
