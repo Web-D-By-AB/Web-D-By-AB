@@ -2,7 +2,7 @@
  * WEBSITE: https://webdbyab.com
  * INSTAGRAM: https://instagram.com/webdbyab
  * FACEBOOK: https://www.facebook.com/webdbyab
- * GITHUB: https://github.com/Web-D-By-AB/
+ * GITHUB: https://github.com/Web-D-By-AB
  */
 
 (function ($) {
