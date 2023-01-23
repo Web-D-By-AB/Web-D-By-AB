@@ -1,8 +1,8 @@
 /**
  * WEBSITE: https://webdbyab.com
- * TWITTER: https://twitter.com/webdbyab
+ * INSTAGRAM: https://instagram.com/webdbyab
  * FACEBOOK: https://www.facebook.com/webdbyab
- * GITHUB: https://github.com/webdbyab/
+ * GITHUB: https://github.com/Web-D-By-AB
  */
 
 (function ($) {

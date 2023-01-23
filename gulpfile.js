@@ -38,9 +38,9 @@ gulp.task("html:build", function () {
     .pipe(
       comments(`
     WEBSITE: https://webdbyab.com
-    TWITTER: https://twitter.com/webdbyab
+    INSTAGRAM: https://instagram.com/webdbyab
     FACEBOOK: https://www.facebook.com/webdbyab
-    GITHUB: https://github.com/webdbyab
+    GITHUB: https://github.com/Web-D-By-AB
     `)
     )
     .pipe(gulp.dest(path.build.dirDev))
@@ -80,11 +80,11 @@ gulp.task("js:build", function () {
     .src(path.src.js)
     .pipe(
       comments(`
-  WEBSITE: https://webdbyab.com
-  TWITTER: https://twitter.com/webdbyab
-  FACEBOOK: https://www.facebook.com/webdbyab
-  GITHUB: https://github.com/webdbyab/
-  `)
+    WEBSITE: https://webdbyab.com
+    INSTAGRAM: https://instagram.com/webdbyab
+    FACEBOOK: https://www.facebook.com/webdbyab
+    GITHUB: https://github.com/Web-D-By-AB
+    `)
     )
     .pipe(gulp.dest(path.build.dirDev + "js/"))
     .pipe(
