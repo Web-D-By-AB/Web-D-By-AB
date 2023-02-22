@@ -116,8 +116,11 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 }
 
 
+
+
 .btn.active:focus, .btn:active:focus, .btn:focus {
   outline: 0;
+  color: #FFF;
 }
 
 

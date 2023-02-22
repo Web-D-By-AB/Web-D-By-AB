@@ -155,6 +155,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
   outline: 0;
+  color: #FFF;
 }
 
 .bg-gray {
