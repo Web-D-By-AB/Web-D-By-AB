@@ -153,6 +153,14 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   border-radius: 50px;
 }
 
+#underline {
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, #ffd43a 50%, transparent 100%);
+  padding: 0.04em 0.1em;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
 .btn.active:focus, .btn:active:focus, .btn:focus {
   outline: 0;
   color: #FFF;

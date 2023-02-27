@@ -116,7 +116,15 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 }
 
 
-
+#underline {
+  
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, $secondary-color 50%, transparent 100%);
+  padding: .04em .1em;
+  
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
   outline: 0;
